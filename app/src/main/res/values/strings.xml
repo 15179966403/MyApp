@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">账号管理器</string>
+    <string name="userName">用户名：</string>
+    <string name="passWord">密码：</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="平台名称:"/>
+        <TextView android:id="@+id/listview_contexts"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="用户名:"/>
+        <TextView android:id="@+id/listview_username"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="密码:"/>
+        <TextView android:id="@+id/listview_password"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_gravity="center"/>
+    </TableRow>
+</TableLayout>

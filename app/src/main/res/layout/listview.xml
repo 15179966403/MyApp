@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1" >
+
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="平台名称"/>
+        <TextView android:id="@+id/listview_contexts"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="用户名"/>
+        <TextView android:id="@+id/listview_username"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="密码"/>
+        <TextView android:id="@+id/listview_password"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="绑定的手机号"/>
+        <TextView android:id="@+id/listview_tel"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:text="绑定的邮箱"/>
+        <TextView android:id="@+id/listview_email"
+            android:layout_height="wrap_content"
+            android:singleLine="true"/>
+    </TableRow>
+</TableLayout>
